@@ -1,0 +1,7 @@
+streamlit==1.30.0
+PyPDF2==3.0.1
+PyMuPDF==1.23.7
+transformers==4.37.2
+torch==2.1.2
+sentence-transformers==2.2.2
+nltk==3.8.1

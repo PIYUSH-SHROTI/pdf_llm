@@ -1,0 +1,13 @@
+prefix=E:/Scrcpy With Sound/Projects/venv/Library
+exec_prefix=E:/Scrcpy With Sound/Projects/venv/Library
+libdir=E:/Scrcpy With Sound/Projects/venv/Library/lib
+sharedlibdir=E:/Scrcpy With Sound/Projects/venv/Library/lib
+includedir=E:/Scrcpy With Sound/Projects/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
